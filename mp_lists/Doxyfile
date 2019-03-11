@@ -1,0 +1,4 @@
+@INCLUDE        = ../../doxygen/doxygen.conf
+PROJECT_NAME    = "mp_lists"
+PROJECT_BRIEF   = "Linked Lists"
+EXTRACT_PRIVATE = YES

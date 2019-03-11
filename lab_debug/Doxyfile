@@ -1,0 +1,5 @@
+@INCLUDE      = ../../doxygen/doxygen.conf
+PROJECT_NAME  = "lab_debug"
+PROJECT_BRIEF = "Disastrous Debugging"
+RECURSIVE     = YES
+EXTRACT_ALL   = YES

@@ -1,0 +1,6 @@
+@INCLUDE        = ../../doxygen/doxygen.conf
+PROJECT_NAME    = "lab_inheritance"
+PROJECT_BRIEF   = "Insidious Inheritance"
+RECURSIVE       = YES
+EXTRACT_ALL     = YES
+EXTRACT_PRIVATE = YES

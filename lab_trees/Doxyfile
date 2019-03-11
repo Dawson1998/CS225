@@ -1,0 +1,8 @@
+@INCLUDE      = ../../doxygen/doxygen.conf
+PROJECT_NAME  = "lab_trees"
+PROJECT_BRIEF = "Tempestuous Trees"
+# We're explicit about the directories so that we exclude files in libcs225
+INPUT = . ./TreeTraversals
+EXTRACT_PRIVATE = YES
+# We need this so that our solution helper functions aren't included in the docs
+ENABLE_PREPROCESSING = YES

@@ -1,0 +1,11 @@
+test
+testimage
+stickers
+.obj
+*.o
+*.d
+
+# generated images
+lighten.png
+saturate.png
+scale2x.png

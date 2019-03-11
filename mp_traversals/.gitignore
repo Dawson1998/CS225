@@ -1,0 +1,15 @@
+test
+traversals
+.obj
+*.o
+*.d
+
+/pacman-*.png
+/i-rainbow-*.png
+/lantern-rainbow-*.png
+
+/pacman-*.gif
+/i-rainbow-*.gif
+/lantern-rainbow-*.gif
+
+frames

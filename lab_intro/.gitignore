@@ -1,0 +1,14 @@
+*DS_Store
+*.o
+*.d
+.objs/
+
+# Generated images
+out-grayscale.png
+ut-illinify.png
+out-spotlight.png
+out-watermark.png
+
+test
+lab_intro
+

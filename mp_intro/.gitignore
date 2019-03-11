@@ -1,0 +1,7 @@
+# Ignore files cleaned up by `make clean`
+test
+intro
+*.o
+
+in.png
+out.png

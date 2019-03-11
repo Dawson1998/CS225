@@ -1,0 +1,25 @@
+*DS_Store
+*.o
+*.d
+.objs/
+
+# Generated images
+test_destructor.png
+test_pure_virtual.png
+test_slicing.png
+test_virtual.png
+
+test
+lab_inheritance
+lab_inheritance-asan
+test_constructor
+test_constructor-asan
+test_constructor.png
+test_destructor
+test_destructor-asan
+test_pure_virtual
+test_pure_virtual-asan
+test_slicing
+test_slicing-asan
+test_virtual
+test_virtual-asan
