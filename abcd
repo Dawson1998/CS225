@@ -1,0 +1,72 @@
+#include<bits/stdc++.h>
+using namespace std;
+vector<int> q;
+
+ void push(int d){
+   q.insert(q.end(),d);
+ }
+
+ void pop(){
+ q.erase(q.begin());
+ }
+
+ int front(){
+ return *q.begin();
+ }
+
+ int main(){
+    push(1);
+    push(2);
+    push(3);
+    push(4);
+    pop();
+    cout<<front()<<endl;
+     for(int i=0;i<q.size();i++) cout<<q[i]<<" ";
+  }
+
+//////////////
+tree.h()
+{
+Private:
+Typename Template<T> current;
+queue<Node> traversal;
+void add(root);
+...
+}
+ 
+ 
+constructor()
+{
+if(root_)
+{
+add(root_)
+++*this
+}
+else
+current = NULL;
+}
+void add(root)
+{
+if(root_->data < 0) //mine wanted the negative numbers
+traversal.push(root);
+if(root->left)
+add(root->left)
+if(root->right)
+add(root->right)
+}
+ 
+operator++{
+if(traversal.size() == 0)
+    current = NULL;
+else {
+current = traversal.top();
+traversal.pop();
+}
+return *this;
+}
+operator *
+{
+return current->data;
+ 
+ 
+}
