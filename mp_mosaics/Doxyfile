@@ -1,0 +1,4 @@
+@INCLUDE        = ../../doxygen/doxygen.conf
+PROJECT_NAME    = "mp_mosaics"
+PROJECT_BRIEF   = "Monstrous Mosaics"
+EXTRACT_PRIVATE = YES
