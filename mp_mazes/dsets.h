@@ -1,4 +1,5 @@
 /* Your code here! */
+#pragma once
 #include <vector>
 using namespace std;
 
